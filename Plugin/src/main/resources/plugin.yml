@@ -1,0 +1,4 @@
+name: Mcplugin
+version: ${project.version}
+main: mcplugin.mcplugin.Mcplugin
+api-version: "1.16"
