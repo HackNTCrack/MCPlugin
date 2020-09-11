@@ -2,3 +2,10 @@ name: Mcplugin
 version: ${project.version}
 main: mcplugin.mcplugin.Mcplugin
 api-version: "1.16"
+
+commands:
+  basic:
+    description: This is a shorter version of the gamemode command.
+    usage: /<command> [player]
+    permission: <plugin name>.basic
+    permission-message: You don't have <permission>
